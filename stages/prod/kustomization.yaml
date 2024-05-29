@@ -12,7 +12,7 @@ patches:
       value: 30083
   target:
     kind: Service
-    name: kargo-demo
+    name: demo-basic
 images:
 - name: nginx
   newTag: 1.25.4
