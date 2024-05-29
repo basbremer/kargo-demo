@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-advanced-content
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>prod Canary</title>
+    </head>
+    <body>
+
+    <h1>prod Canary</h1>
+
+    </body>
+    </html>

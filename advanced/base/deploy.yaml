@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-advanced
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-advanced
+  template:
+    metadata:
+      labels:
+        app: demo-advanced
+    spec:
+      containers:
+      - name: nginx 
+        image: nginx:placeholder
+        volumeMounts:
+        - name: content
+          mountPath: /usr/share/nginx/html
+          readOnly: true
+      volumes:
+      - name: content
+        configMap:
+          name: demo-advanced-content
