@@ -17,4 +17,4 @@ images:
 - name: nginx
   newTag: 1.25.0
 - name: busybox
-  newTag: 1.30.0
+  newTag: 1.35.0
