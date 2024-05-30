@@ -16,5 +16,5 @@ patches:
 images:
 - name: nginx
   newTag: 1.25.0
-- name: busybox
-  newTag: 1.35.0
+- name: alpine
+  newTag: 3.17.0
