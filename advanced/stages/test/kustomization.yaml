@@ -15,6 +15,4 @@ patches:
     name: demo-advanced
 images:
 - name: nginx
-  newTag: 1.25.0
-- name: alpine
-  newTag: 3.17.0
+  newTag: 1.24.0

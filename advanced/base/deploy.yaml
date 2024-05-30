@@ -19,8 +19,6 @@ spec:
         - name: content
           mountPath: /usr/share/nginx/html
           readOnly: true
-      - name: alpine
-        image: alpine:placeholder
       volumes:
       - name: content
         configMap:
