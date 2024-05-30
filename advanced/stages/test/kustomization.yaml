@@ -16,3 +16,5 @@ patches:
 images:
 - name: nginx
   newTag: 1.26.0
+- name: busybox
+  newTag: 1.30.0
