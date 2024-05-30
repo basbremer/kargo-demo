@@ -19,6 +19,8 @@ spec:
         - name: content
           mountPath: /usr/share/nginx/html
           readOnly: true
+      - name: busybox
+        image: busybox:placeholder
       volumes:
       - name: content
         configMap:
