@@ -13,3 +13,6 @@ patches:
   target:
     kind: Service
     name: demo-advanced
+images:
+- name: nginx
+  newTag: 1.24.0

@@ -15,4 +15,4 @@ patches:
     name: demo-basic
 images:
 - name: nginx
-  newTag: 1.26.0
+  newTag: 1.27.1
