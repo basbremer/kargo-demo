@@ -14,5 +14,7 @@ patches:
     kind: Service
     name: demo-advanced
 images:
+- name: gcr.io/kaniko-project/executor
+  newTag: v1.23.2
 - name: nginx
   newTag: 1.24.0
