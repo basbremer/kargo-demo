@@ -9,12 +9,12 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      project: demo-advanced
+      project: demo-basic
       app: alpine
   template:
     metadata:
       labels:
-        project: demo-advanced
+        project: demo-basic
         app: alpine
     spec:
       containers:
