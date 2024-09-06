@@ -3,3 +3,6 @@ kind: Kustomization
 
 resources:
 - ../../base
+images:
+- name: ghcr.io/linuxcontainers/alpine
+  newTag: "3.20"
