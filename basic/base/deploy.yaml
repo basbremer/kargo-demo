@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: alpine 
-        image: alpine:placeholder
+        image: ghcr.io/linuxcontainers/alpine:placeholder
