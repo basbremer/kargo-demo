@@ -13,13 +13,6 @@ spec:
         app: demo-advanced
     spec:
       containers:
-      - name: nginx 
-        image: nginx:placeholder
-        volumeMounts:
-        - name: content
-          mountPath: /usr/share/nginx/html
-          readOnly: true
-      volumes:
-      - name: content
-        configMap:
-          name: demo-advanced-content
+      - name: alpine 
+        image: ghcr.io/linuxcontainers/alpine:placeholder
+        command: ["sleep", "infinity"]

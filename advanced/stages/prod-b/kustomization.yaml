@@ -3,16 +3,3 @@ kind: Kustomization
 
 resources:
 - ../../base
-- configmap.yaml
-
-patches:
-- patch: |-
-    - op: replace
-      path: /spec/ports/0/nodePort
-      value: 30184
-  target:
-    kind: Service
-    name: demo-advanced
-images:
-- name: nginx
-  newTag: 1.27.0
