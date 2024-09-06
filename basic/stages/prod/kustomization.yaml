@@ -5,5 +5,5 @@ resources:
 - ../../base
 
 images:
-- name: alpine
+- name: ghcr.io/linuxcontainers/alpine
   newTag: 3.20.0
