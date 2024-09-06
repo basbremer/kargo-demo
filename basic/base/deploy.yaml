@@ -3,16 +3,19 @@ kind: Deployment
 metadata:
   name: demo-basic
   labels:
-    app: demo-basic
+    project: demo-basic
+    app: alpine
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo-basic
+      project: demo-advanced
+      app: alpine
   template:
     metadata:
       labels:
-        app: demo-basic
+        project: demo-advanced
+        app: alpine
     spec:
       containers:
       - name: alpine 
